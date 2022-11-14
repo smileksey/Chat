@@ -54,12 +54,14 @@ public class ClientGuiController extends Client{
         protected void informAboutAddingNewUser(String userName) {
             model.addUser(userName);
             view.refreshUsers();
+            view.addNewUserNotification(userName);
         }
 
         @Override
         protected void informAboutDeletingNewUser(String userName) {
             model.deleteUser(userName);
             view.refreshUsers();
+            view.deleteUserNotification(userName);
         }
 
         @Override

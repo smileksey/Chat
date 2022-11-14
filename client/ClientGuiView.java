@@ -103,4 +103,13 @@ public class ClientGuiView {
         }
         users.setText(sb.toString());
     }
+
+    public void addNewUserNotification(String userName) {
+        messages.append(userName + " присоединился к чату." + "\n");
+    }
+
+    public void deleteUserNotification(String userName) {
+        messages.append(userName + " покинул чат." + "\n");
+    }
+
 }
