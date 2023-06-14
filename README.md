@@ -1,2 +1,14 @@
-# Chat
-Simple chat with GUI (Server, console client, console bot, GUI client)
+# Чат
+## Учебный проект из курса JavaRush
+Представляет собой приложение с графическим пользовательским интерфейсом (используется библиотека Swing) для обмена текстовыми сообщениями между несколькими участниками.
+Работает по сети через сокетное соединение.
+
+![screen](https://github.com/smileksey/Chat/blob/main/Chat_screen1.png?raw=true)
+![screen](https://github.com/smileksey/Chat/blob/main/Chat_screen2.png?raw=true)
+
+Проект включает в себя:
+- сервер чата;
+- консольное клиентское приложение;
+- клиентское приложение с графическим интерфейсом;
+- бота, который отвечает участникам чата на определенные команды.
+
